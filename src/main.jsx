@@ -1,6 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
+import About from './pages/About.jsx'
+import Contact from './pages/Contact.jsx'
+import Gallery from './pages/Gallery.jsx'
 import './index.css'
 import {
   createBrowserRouter,
@@ -10,19 +13,19 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <App />,
   },
   {
     path: "/about",
-    element: <div>this could be an about page</div>,
+    element: <About />,
   },
   {
     path: "/gallery",
-    element: <div>this could be a gallery page</div>,
+    element: <Gallery />
   },
   {
     path: "/contact",
-    element: <div>this could be a contact page</div>,
+    element: <Contact />,
   },
 
 ]);
