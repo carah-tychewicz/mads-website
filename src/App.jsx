@@ -3,7 +3,9 @@ import './App.css'
 function App() {
   return (
     <>
-      <p>henlo world</p>
+      <div className='app'>
+        <p>henlo world</p>
+      </div>
     </>
   )
 }

@@ -1,10 +1,14 @@
+import "../styles/Navbar.css";
+
 function Navbar() {
   return (
     <>
-      <a href="/home">Home</a>
-      <a href="/portfolio">Portfolio</a>
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
+      <div className="nav-box">
+        <a className="nav-item" href="/home">Home</a>
+        <a className="nav-item" href="/portfolio">Portfolio</a>
+        <a className="nav-item" href="/about">About</a>
+        <a className="nav-item" href="/contact">Contact</a>
+      </div>
     </>
   )
 }
