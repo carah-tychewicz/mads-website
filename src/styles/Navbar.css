@@ -6,4 +6,6 @@
 
 .nav-item {
   margin-right: 1em;
+  text-decoration: none;
+  color: white;
 }
