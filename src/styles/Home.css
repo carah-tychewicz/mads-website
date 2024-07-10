@@ -2,4 +2,12 @@
   background-image: url('../img/home-bg.jpg');
   background-size: cover;
   min-height: 100vh;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 72pt;
+  color: white;
 }
