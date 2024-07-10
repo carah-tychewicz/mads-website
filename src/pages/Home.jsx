@@ -3,7 +3,8 @@ import '../styles/Home.css';
 function Home() {
   return (
     <>
-      <p>Hewwo Home.</p>
+      <div className='bg-container'>
+      </div>
     </>
   )
 }
