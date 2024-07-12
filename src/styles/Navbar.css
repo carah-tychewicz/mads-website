@@ -4,10 +4,19 @@
   background-repeat: no-repeat;
   padding: 1em 0 1em 1em;
   height: 80px;
+  align-content: center;
+}
+
+.name-logo {
+  text-decoration: none;
+  color: white;
+  font-size: 24pt;
 }
 
 .nav-item {
   margin-right: 1em;
   text-decoration: none;
   color: white;
+  font-size: 24pt;
+  float: right;
 }
