@@ -1,3 +1,10 @@
+@font-face {
+  font-family: permanentMarker;
+  src: url('./fonts/PermanentMarker-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
 .nav-box {
   background-image: url('../img/navbar.png');
   background-size: cover;
@@ -10,7 +17,8 @@
 .name-logo {
   text-decoration: none;
   color: white;
-  font-size: 24pt;
+  font-size: 36pt;
+  font-family: permanentMarker;
 }
 
 .nav-item {
