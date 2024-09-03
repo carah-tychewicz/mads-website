@@ -20,11 +20,3 @@
   font-size: 36pt;
   font-family: permanentMarker;
 }
-
-.nav-item {
-  margin: 0.75em 1em 0 0;
-  text-decoration: none;
-  color: white;
-  font-size: 24pt;
-  float: right;
-}
