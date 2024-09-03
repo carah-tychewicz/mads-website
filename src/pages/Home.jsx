@@ -1,3 +1,4 @@
+import Gallery from '../components/Gallery';
 import '../styles/Home.css';
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
             <div className="bio-image-col">
               <img src="./src/img/self-portrait.jpeg" height="800px" width="auto"></img>
             </div>
+            <Gallery />
           </div>
         </div>
       </div>
